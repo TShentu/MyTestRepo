@@ -17,7 +17,7 @@ The Terminus Application Chart (TAC) describes essential information about appli
 ### Brief Process
 
 1. Test your application on Terminus,  create the TAC according to guideline.
-2. Fork this repository. Add your application's TAC. Create a PR to `beclab:main`.
+2. Fork this repository. Add your application's TAC. Create a PR to `beclab/apps:main`.
 3. Wait for GitBot to check your PR. If needed, modify PR until it passes.
 4. Once the PR is merged, your application is ready to launch.
 
@@ -34,7 +34,7 @@ Before submitting an application, please ensure that it has been thoroughly test
 #### 2. Submit an application
 The submission of the application needs to be completed through a Pull Request. Here's how:
 - Fork this repository and add your application's TAC in your Forked repository.
-- Create a `Draft PR` pointing to `beclab:main`.
+- Create a `Draft PR` pointing to `beclab/apps:main`.
 - Please edit your PR Title and text according to the template.
     - PR Title must in this format: [PR Type][FolderName][version]Title Content
     - [PR Type] includes:
@@ -53,8 +53,8 @@ The submission of the application needs to be completed through a Pull Request. 
 
 - During the Draft PR phase, you can continuously adjust your PR content and add new commits. Once everything is ready, click on the `Ready for review` button to submit the PR and call on GitBot to check.
 
-
-> Note: The title and content of the PR are crucial for GitBot. Please adhere to the template specifications when filling them out. GitBot may automatically close any invalid PRs.
+> [!NOTE]
+> The title and content of the PR are crucial for GitBot. Please adhere to the template specifications when filling them out. GitBot may automatically close any invalid PRs.
 
 
 #### 3. Track your PR status
@@ -72,7 +72,7 @@ The submission of the application needs to be completed through a Pull Request. 
 
 - During the 'waiting to submit' state, you can continue to submit commits to modify your TAC. GitBot will recheck the TAC file and update the PR status upon receiving a new commit.
 
-- Once your PR passes all checks, it will be automatically merged into the `beclab:main`. The application will be listed on Market after a while.
+- Once your PR passes all checks, it will be automatically merged into the `beclab/apps:main`. The application will be listed on Market after a while.
 
 - If you encounter any issues during the submission process, feel free to reach out to the Terminus team or seek assistance from the community.
 
@@ -82,7 +82,8 @@ You can continue managing and maintaining your application by creating a Pull Re
 
 The process of managing applications is similar to submission.You create a specific type of Pull Request, and GitBot takes care of the rest. Terminus uses `special control files` in the root directory of TAC to manage the application's status. These `special control files` are empty files wiht specific suffix, such as `.suspend` and `.remove`
 
-> Note: No ".suspend" or ".remove" files should be included in the initial submission.
+> [!NOTE]
+> No ".suspend" or ".remove" files should be included in the initial submission.
 
 
 ### Update
