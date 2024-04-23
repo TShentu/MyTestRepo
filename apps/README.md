@@ -2,15 +2,15 @@
 
 This is the official repository for the Terminus Application Chart Indexer.
 
-Terminus distributes applications in a permissionless manner using the Market Protocol, thereby maximizing the freedom of developers. Meanwhile, Terminus provides a default indexing service that is based on this repository, enhancing the flexibility and scalability of application distribution. Learn more about the [Market Protocol](https://above-os.github.io/docs/overview/protocol/market.html).
+Terminus distributes applications in a permissionless manner using the Market Protocol, thereby maximizing the freedom of developers. Meanwhile, Terminus provides a default indexing service that is based on this repository, enhancing the flexibility and scalability of application distribution. Learn more about the [Market Protocol](https://docs.jointerminus.com/overview/protocol/market.html).
 
 
 ## Terminus Application Chart
 
 The Terminus Application Chart (TAC) describes essential information about applications to the Terminus OS and Terminus Market. It is an extension of the Helm Chart package. Before you submit your application to Terminus Market, here is some information you need to know about TAC:
-- [The structure of the Terminus Application Chart](https://above-os.github.io/docs/developer/develope/chart.html)
-- [Configuration guide and field descriptions of TerminusManifest.yaml](https://above-os.github.io/docs/developer/develope/manifest.html)
-- [Extensions field to Helm in Terminus](https://above-os.github.io/docs/developer/develope/extension.html)
+- [The structure of the Terminus Application Chart](https://docs.jointerminus.com/developer/develope/chart.html)
+- [Configuration guide and field descriptions of TerminusManifest.yaml](https://docs.jointerminus.com/developer/develope/manifest.html)
+- [Extensions field to Helm in Terminus](https://docs.jointerminus.com/developer/develope/extension.html)
 
 
 ## Submiting Your Application
@@ -25,11 +25,11 @@ The Terminus Application Chart (TAC) describes essential information about appli
 ### Detail Process
 
 #### 1. Develop and test your application
-Developing applications on Terminus doesn't differ greatly from the current mainstream web development practices. You only need to grasp some basic Terminus development concepts [here](https://above-os.github.io/docs/developer/develope/).
+Developing applications on Terminus doesn't differ greatly from the current mainstream web development practices. You only need to grasp some basic Terminus development concepts [here](https://docs.jointerminus.com/developer/develope/).
 
 Before submitting an application, please ensure that it has been thoroughly tested on your Terminus OS.
-- Use DevBox's dev-container to test and debug your applciation in a real online environment. [Learn more about DevBox.](https://above-os.github.io/docs/developer/develope/tutorial/devbox.html)
-- Use the [custom installation](https://above-os.github.io/docs/how-to/terminus/market/custom.html) in the Market for user testing.
+- Use DevBox's dev-container to test and debug your applciation in a real online environment. [Learn more about DevBox.](https://docs.jointerminus.com/developer/develope/tutorial/devbox.html)
+- Use the [custom installation](https://docs.jointerminus.com/how-to/terminus/market/custom.html) in the Market for user testing.
 
 #### 2. Submit an application
 The submission of the application needs to be completed through a Pull Request. Here's how:
@@ -42,7 +42,7 @@ The submission of the application needs to be completed through a Pull Request. 
         - UPDATE: Update an already successfully merged application
         - REMOVE: Remove an already successfully merged application
         - SUSPEND: Suspend an already successfully merged application from distribution through the application store
-    - [FolderName] is your Terminus Application Chart name. It must adhere to the naming requirements in [TAC specification](https://above-os.github.io/docs/developer/develope/chart.html).
+    - [FolderName] is your Terminus Application Chart name. It must adhere to the naming requirements in [TAC specification](https://docs.jointerminus.com/developer/develope/chart.html).
     - [version] refers to your TAC's Chart Version, which needs to be consistent with the `version` field in Chart.yaml and metadata section of TerminusManifest.yaml
 - To prevent your PR from being incorrectly parsed or closed, please adhere to the following rules:
     - Your PR title must contain only one PR Type, FolderName, and version.
@@ -54,8 +54,7 @@ The submission of the application needs to be completed through a Pull Request. 
 - During the Draft PR phase, you can continuously adjust your PR content and add new commits. Once everything is ready, click on the `Ready for review` button to submit the PR and call on GitBot to check.
 
 
-> [!NOTE]
-> The title and content of the PR are crucial for GitBot. Please adhere to the template specifications when filling them out. GitBot may automatically close any invalid PRs.
+> Note: The title and content of the PR are crucial for GitBot. Please adhere to the template specifications when filling them out. GitBot may automatically close any invalid PRs.
 
 
 #### 3. Track your PR status
@@ -83,8 +82,7 @@ You can continue managing and maintaining your application by creating a Pull Re
 
 The process of managing applications is similar to submission.You create a specific type of Pull Request, and GitBot takes care of the rest. Terminus uses `special control files` in the root directory of TAC to manage the application's status. These `special control files` are empty files wiht specific suffix, such as `.suspend` and `.remove`
 
-> [!NOTE]
-> No ".suspend" or ".remove" files should be included in the initial submission.
+> Note: No ".suspend" or ".remove" files should be included in the initial submission.
 
 
 ### Update
@@ -119,8 +117,6 @@ Please note:
 ## Promoting Your Application
 
 Utilizing well-organized application descriptions, screenshots, and promotional images to highlight the features and functions of your application can help attract new users in the Market. Screenshots and previews can intuitively demonstrate the user experience, helping your application stand out. 
-
-[Image]详情页图片占位
 
 To add promotional images on the application detail page, include links to these assets in the `promoteImage` fields within the `spec` section of the `TerminusManifest.yaml` file.
 
