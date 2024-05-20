@@ -49,11 +49,12 @@ You can find the User Manual at https://docs.jointerminus.com/how-to/termipass/o
 |[Login to Terminus Space](https://docs.jointerminus.com/how-to/space/account.html#log-in) | Yes | N/A | N/A |
 |[Activate Terminus](https://docs.jointerminus.com/how-to/terminus/setup/wizard.html) | Yes | N/A | N/A |
 |[View Connection Status](https://docs.jointerminus.com/how-to/termipass/manage-terminus.html#connection-status) | Yes | Yes | Yes |
+|[Get the Two-Factor Verification Code](https://docs.jointerminus.com/how-to/terminus/setup/login.html#two-factor-verification) | Yes | N/A | Yes |
 |[Manage VPN Connections](https://docs.jointerminus.com/how-to/termipass/manage-terminus.html#vpn-connection) | Yes | Yes | N/A |
-|[Manage files on Terminus](https://docs.jointerminus.com/how-to/terminus/files/) | N/A | Yes | N/A |
+|[Manage files on Terminus](https://docs.jointerminus.com/how-to/terminus/files/) | Yes | Yes | N/A |
 |[Local File Sync](https://docs.jointerminus.com/how-to/termipass/local-file-sync.html) | N/A | Yes | N/A |
 |[Manage Secrets](https://docs.jointerminus.com/how-to/terminus/vault/) | Yes | Yes | Yes |
-|[Password Autofill](https://docs.jointerminus.com/how-to/termipass/password-autofill.html) | N/A | Yes | N/A |
+|[Password Autofill](https://docs.jointerminus.com/how-to/termipass/password-autofill.html) | Yes | N/A | N/A |
 | Chat with Local AI | N/A | N/A | Yes |
 | Subscribe RSS | N/A | N/A | Yes |
 | Collect Webpage/PDF | N/A | N/A | Yes |
