@@ -22,7 +22,7 @@ Alternatively, you can transfer the APK file from your computer over a USB conne
 > **NOTE**: The specific steps may vary depending on the device and OS version. Refer to your device's user manual for instructions on installing from an APK package.
 
 ### iOS
-1. Clink the link to install the latest TermiPass from App Store.
+1. Click the link to install the latest TermiPass from App Store.
 
 ### Windows/Mac
 1. Download the package.
