@@ -34,7 +34,7 @@ Alternatively, you can transfer the APK file from your computer over a USB conne
 3. Toggle on **'Developer mode'**
 4. Click **'Load uppacked'**, and select unpacked TermiPass Extension folder.
 
-> You can refer to [Google Knowledge Center](https://knowledge.workspace.google.com/kb/load-unpacked-extensions-000005962) for more details.
+> **NOTE**: You can refer to [Google Knowledge Center](https://knowledge.workspace.google.com/kb/load-unpacked-extensions-000005962) for more details.
 
 ## Use TermiPass
 You can find the User Manual at https://docs.jointerminus.com/how-to/termipass/overview.html
